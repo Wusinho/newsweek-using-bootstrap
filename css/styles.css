@@ -181,3 +181,70 @@ header {
 .featured-stories article {
   padding-bottom: 20px;
 }
+
+/*DEBATE*/
+.debate-cont,
+.opinion-cont {
+  font: bold 17px/21px "Roboto Condensed", sans-serif;
+  color: black;
+}
+
+.debate-cont img,
+.opinion-cont img {
+  width: 63px;
+  height: 63px;
+  margin-right: 15px;
+}
+
+.player1 {
+  border-top: 4px solid #d9d9d9;
+  padding-top: 10px;
+  padding-bottom: 4px;
+}
+
+.by-who {
+  font-size: 14px;
+  line-height: 21px;
+  color: #555;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.by-who span {
+  font-weight: normal;
+}
+
+.vs-wrap {
+  position: relative;
+}
+
+.hr1 {
+  margin-bottom: 1px;
+}
+
+.hr2 {
+  margin-top: 1px;
+}
+
+.decoration {
+  position: absolute;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  color: #d6d6d6;
+  font: bold 14px/32px "Roboto Condensed", sans-serif;
+  text-align: center;
+  left: 45%;
+  top: -15px;
+}
+
+.player2 {
+  border-bottom: 4px solid #d9d9d9;
+  padding-bottom: 12px;
+}
+
+.player2 .img img {
+  margin-right: 0;
+  margin-left: 15px;
+}
