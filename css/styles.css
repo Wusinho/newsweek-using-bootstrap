@@ -369,3 +369,72 @@ header {
 .signup-btn svg {
   fill: white;
 }
+
+/*MAGAZINE*/
+.mag-1 .wrap {
+  margin-bottom: 0;
+}
+
+.see-all {
+  padding: 10px 10px 10px 12px;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  display: block;
+  background-color: #f4f5f6;
+  color: black;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.col-sm-4,
+.col-sm-3 {
+  padding: 0;
+}
+
+.col-sm-4 .category,
+.col-sm-3 .category {
+  position: relative;
+  font: bold 16px/26px "Roboto Condensed", sans-serif;
+  color: #f72210;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.cover {
+  padding: 0 7px;
+  background-color: #f72210;
+  color: white;
+  margin-right: 7px;
+}
+
+.col-sm-4 .category span,
+.col-sm-3 .category span {
+  display: inline-block;
+}
+
+.mags-top h5,
+.mags-bot h5 {
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 30px;
+}
+
+.col-sm-3 .wrap .category {
+  background-color: #f72210;
+  color: white;
+  padding: 0 7px;
+  line-height: 26px;
+  margin: 0;
+}
+
+/*EDITORS PICK*/
+.editors-pick article {
+  padding-bottom: 20px;
+}
+
+.col-sm-6 h3 {
+  font-size: 20px;
+  line-height: 20px;
+}
