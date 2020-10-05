@@ -1,0 +1,143 @@
+/*Header Navbar*/
+.menu {
+  position: absolute;
+  bottom: 12px;
+}
+
+.prof-logo {
+  display: none;
+}
+
+.lgn {
+  display: block;
+}
+
+.sub-btn {
+  font-size: 18px;
+  line-height: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.featured-stories,
+.debate-cont,
+.opinion-cont,
+.more-stories,
+.culture-cont {
+  padding-top: 0;
+}
+
+.top-wrapper {
+  display: grid;
+  grid-template-columns: 45% 52%;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.top-story {
+  grid-column-start: 2;
+}
+
+.featured-stories {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 7;
+  position: sticky;
+  top: -1300px;
+}
+
+.culture-cont {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.more-stories {
+  grid-column-start: 2;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+
+.debate-cont {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+
+.opinion-cont {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 7;
+  grid-row-end: 9;
+}
+
+.newsletter {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 9;
+}
+
+.my-turn,
+.cnt {
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-turn .img img,
+.cnt .img img {
+  width: 100%;
+}
+
+.turn-1,
+.cnt-1 {
+  font: bold 16px/19px;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.turn-1:first-child,
+.cnt-1:first-child {
+  padding-left: 0;
+}
+
+
+.player2 .d-flex {
+  justify-content: space-between;
+}
+
+.magazine-art,
+.mags-cont,
+.mags-bot {
+  display: flex;
+}
+
+.mag-1 {
+  width: 25%;
+}
+
+.mags-top {
+  width: 75%;
+}
+
+.mags-cont article {
+  width: 33.33%
+}
+
+.mag-1,
+.mags-cont article,
+.col-sm-3 {
+  padding: 0 15px;
+}
+
+.col-sm-4 img {
+  width: auto;
+  max-width: 100%;
+  height: 100%;
+}
+
+.mags-top h5,
+.mags-bot h5 {
+  font-size: 20px;
+  line-height: 20px;
+}
