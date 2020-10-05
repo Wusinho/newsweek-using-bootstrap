@@ -248,3 +248,33 @@ header {
   margin-right: 0;
   margin-left: 15px;
 }
+
+/*OPINION*/
+.opinion-cont li {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.opinion-cont li:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+/*MORE STORIES*/
+.more-stories article {
+  padding: 14px 0;
+  border-top: 1px solid #ddd;
+  position: relative;
+}
+
+.more-stories .img {
+  width: 95px;
+  float: left;
+  margin-right: 15px;
+}
+
+.more-stories h4 {
+  font-size: 17px;
+  line-height: 20px;
+}
