@@ -278,3 +278,94 @@ header {
   font-size: 17px;
   line-height: 20px;
 }
+
+/*CULTURE & TRAVEL*/
+.culture-cont {
+  padding-bottom: 10px;
+}
+
+.cnt-cont {
+  padding-top: 10px;
+}
+
+.cnt-1 .wrap {
+  margin-bottom: 0;
+}
+
+.turn-1 .info,
+.cnt-1 .info {
+  padding: 15px 0 20px;
+}
+
+.turn-1 .info a,
+.cnt-1 .info a {
+  font: bold 16px/19px "Roboto Condensed", sans-serif;
+  color: rgba(3, 3, 3, .5);
+  margin-bottom: 10px;
+}
+
+.tags {
+  font: bold 13px/20px "Roboto condensed", Arial, sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.tags a {
+  display: inline-block;
+  background-color: #c2d4d7;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+/*NEWSLETTER*/
+.newsletter {
+  max-width: 300px;
+  margin: 0 auto 30px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  padding: 20px;
+}
+
+.n-title {
+  font: bold 19px/19px "Roboto Condensed", sans-serif;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.icon-n {
+  width: 29px;
+  float: left;
+  margin: 5px 10px 5px 0;
+}
+
+.signup-email {
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  color: #555;
+  font-size: 14px;
+  font-family: "Helvetica", sans-serif;
+  background-color: white;
+  border: 1px solid #e0e1e1;
+  text-indent: 9px;
+}
+
+.signup-btn {
+  margin-top: 8px;
+  width: 100%;
+  height: 32px;
+  line-height: 32px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #f61602;
+  border-radius: 3px;
+}
+
+.signup-btn svg {
+  fill: white;
+}
