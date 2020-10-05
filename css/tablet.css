@@ -155,3 +155,37 @@
 .section-pick .col-sm-6 {
   min-width: 100%;
 }
+
+.sub-art .flex-column,
+.nl-cont,
+.firstline-tablet-v,
+.footer-div-firstline {
+  flex-direction: row !important; 
+}
+
+.col-md-7 {
+  max-width: 100%;
+  flex: auto;
+}
+
+.mag-cont .info{
+  text-align: left!important;
+  padding-left: 30px;
+}
+
+.nl-cont .img {
+  min-width: 50%;
+}
+
+.nl-cont .img img {
+  min-height: 200px;
+}
+
+.firstline-tablet-v {
+  justify-content: space-between;
+}
+
+.firstline-tablet-v,
+.footer-div-firstline {
+  align-items: flex-end;
+}
