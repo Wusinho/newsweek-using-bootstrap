@@ -438,3 +438,120 @@ header {
   font-size: 20px;
   line-height: 20px;
 }
+
+/*SECTION PICK*/
+.section-pick .block-title {
+  border-top: 1px solid #d9d9d9;
+  color: #f72210;
+  padding-top: 25px;
+  font-size: 22px;
+  line-height: 22px;
+  text-transform: none;
+}
+
+.section-pick article h4 {
+  font-size: 18px;
+  line-height: 18px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.art-list {
+  font: bold 17px/21px "Roboto Condensed", sans-serif;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.art-list li {
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.art-list li:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.art-list img {
+  width: 110px;
+  margin-right: 15px;
+}
+
+/*SUBSCRIBE*/
+.sub-art,
+.nl-bot {
+  padding-bottom: 20px;
+}
+
+.sub-art .block-title,
+.nl-bot .block-title {
+  color: #f72210;
+}
+
+.mag-cont {
+  background-color: #f4f5f6;
+  padding: 24px 20px 20px;
+}
+
+.mag-cont .img {
+  margin-bottom: 15px;
+  position: relative;
+  padding-bottom: 13px;
+  padding-right: 90px;
+}
+
+.current {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+}
+
+.mag-thumb {
+  width: 170px;
+  height: 228px;
+}
+
+.mag-cont .info h3,
+.nl-cont .info h3 {
+  font-size: 20px;
+}
+
+.subscribe-btn {
+  position: relative;
+  font: bold 18px/18px "Roboto Condensed", sans-serif;
+  background-color: #f72310;
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 10px 10px 10px 12px;
+  border-radius: 3px;
+}
+
+.nl-bot .info {
+  padding: 25px 20px 30px;
+  border: 1px solid #ebebeb;
+}
+
+.nl-cont .img img {
+  object-fit: cover;
+  height: 170px;
+}
+
+.nl-cont .info h3 {
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+
+.nl-cont .info .signup-email,
+.nl-cont .info .signup-btn {
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+}
+
+.nl-cont .info .signup-btn {
+  border-radius: 0 3px 3px 0;
+  margin-top: 0;
+}
