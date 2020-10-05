@@ -114,6 +114,7 @@
 
 .mag-1 {
   width: 25%;
+  align-self: center;
 }
 
 .mags-top {
@@ -144,4 +145,13 @@
 .mags-bot h5 {
   font-size: 20px;
   line-height: 20px;
+}
+
+.section-pick .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section-pick .col-sm-6 {
+  min-width: 100%;
 }

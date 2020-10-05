@@ -430,6 +430,12 @@ header {
 }
 
 /*EDITORS PICK*/
+
+.editors-pick .n-title {
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 5px;
+}
+
 .editors-pick article {
   padding-bottom: 20px;
 }
@@ -613,4 +619,3 @@ header {
 .ed-list li a:hover {
   text-decoration: none;
 }
-    
