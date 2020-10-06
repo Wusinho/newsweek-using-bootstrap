@@ -12,6 +12,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
   color: #333;
+  background-color: #f4f5f6;
+  max-width: 1310px;
+  margin: 0 auto;
 }
 
 a {
@@ -50,13 +53,19 @@ h6 {
   color: #f72210;
 }
 
-.col {
-  width: 100%;
+.col,
+.col-1,
+.col-2,
+.col-3,
+.col-4 {
+  max-width: 100%;
+  flex: auto;
 }
 
 /*HEADER NAVBAR*/
 header {
   background-color: #f72210;
+  z-index: 9999 !important;
 }
 
 .brand svg {
@@ -128,10 +137,19 @@ header {
   fill: rgba(255, 255, 255, .55);
 }
 
+.bot-header {
+  display: none;
+}
+
 /*MAIN TOP STORY*/
 .main {
   background-color: white;
   padding-top: 20px;
+}
+
+.top-wrapper,
+.top-wrapper .row {
+  flex-direction: column !important;
 }
 
 .top-story article {
@@ -175,7 +193,6 @@ header {
 }
 
 /*FEATURED STORIES*/
-.featured-stories,
 .debate-cont,
 .opinion-cont,
 .more-stories,

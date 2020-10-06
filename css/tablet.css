@@ -21,66 +21,34 @@
 
 .featured-stories,
 .debate-cont,
-.opinion-cont,
 .more-stories,
 .culture-cont {
   padding-top: 0;
 }
 
-.top-wrapper {
-  display: grid;
-  grid-template-columns: 45% 52%;
-  column-gap: 20px;
-  row-gap: 20px;
+.top-wrapper,
+.top-wrapper .row {
+  flex-direction: row !important;
 }
 
-.top-story {
-  grid-column-start: 2;
+.col,
+.col-1,
+.col-2,
+.col-3,
+.col-4 {
+  max-width: 100%;
 }
 
-.featured-stories {
-  grid-column-start: 1;
-  grid-row-start: 1;
-  grid-row-end: 7;
-  position: sticky;
-  top: -1000px;
+.col-1 {
+  width: 45%;
 }
 
-.featured-stories img {
-  max-height: 220px;
-  object-fit: cover;
+.col-1 .sticky-top {
+  top: -850px;
 }
 
-.culture-cont {
-  grid-column-start: 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-
-.more-stories {
-  grid-column-start: 2;
-  grid-row-start: 3;
-  grid-row-end: 6;
-}
-
-.debate-cont {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 6;
-  grid-row-end: 7;
-}
-
-.opinion-cont {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 7;
-  grid-row-end: 9;
-}
-
-.newsletter {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 9;
+.col-2 {
+  width: 55%;
 }
 
 .my-turn,
