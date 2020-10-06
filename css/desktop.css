@@ -117,3 +117,33 @@ header {
 .col-2 {
   width: 59%;
 }
+
+.editors-pick .col-sm-6 {
+  max-width: 25%;
+}
+
+.sub-art {
+  max-width: 65%;
+}
+
+.nl-bot {
+  max-width: 35%;
+  padding-top: 0;
+}
+
+.nl-cont {
+  height: 100%;
+  padding-bottom: 28px;
+}
+
+.nl-cont .img img {
+  height: 100%;
+}
+
+.sub-cont {
+  justify-content: space-between;
+}
+
+form {
+  flex-direction: column;
+}
