@@ -1,24 +1,27 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# The Next Web
+# News Week
 
-A Clone of The Next Web site using Media Queries for responsive design.
+We used Bootstrap Framework to create a clone of News Week website.
 
-![screenshot](app_screenshot.png)
+![Desktop](Screenshots/Desktop.pngDesktop.png)
+![Tablet](Screenshots/Tablet.png)
+![Phone](Screenshots/Phone.png)
 
 
 ## Built With
 
 - HTML5
 - CSS3
+- Bootstrap
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/jcy2704/thenextweb/e3831e1bef723c033d97db7daa75e5eb59a0a0f0/index.html)
+[News Week](https://rawcdn.githack.com/julian3493/newsweek-using-bootstrap/882ffe4c5f107df64df44b019b8c81cd95723a80/index.html)
 
 ## Getting Started
 
-**This project was created for the sole purpose of understanding media queries and responsive design. The following will be instructions on how you can see the project on your own computer.**
+**This project was created for the sole purpose of understanding how framworks works such as Bootstrap. The following will be instructions on how you can see the project on your own computer.**
 
 
 To get a local copy up and running follow these simple example steps.
@@ -46,17 +49,17 @@ Linters errors
 - Twitter: [@yiak_](https://twitter.com/yiak_)
 - LinkedIn: [Steven Jack Chung](https://linkedin.com/in/stevenjchung)
 
-👤 **Janluc Saneaux**
+👤 **Julian Ramos**
 
-- GitHub: [@Janluc](https://github.com/Janluc)
-- Twitter: [@Janluc123](https://twitter.com/Janluc123)
-- LinkedIn: [Janluc Saneaux](https://www.linkedin.com/in/janluc-saneaux-91707a1b4/)
+- GitHub: [@julian3493](https://github.com/julian3493)
+- Twitter: [@JulianR16893833](https://twitter.com/JulianR16893833)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juli%C3%A1n-ricardo-ramos-arevalo-3868ba135/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/jcy2704/thenextweb/issues).
+Feel free to check the [issues page](https://github.com/julian3493/newsweek-using-bootstrap/issues).
 
 ## Show your support
 
@@ -66,4 +69,4 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- Smashing Magazine
+- News Week
