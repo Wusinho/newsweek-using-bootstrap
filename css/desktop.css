@@ -1,0 +1,21 @@
+header {
+  height: 95px;
+}
+
+.mid-header {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.brand svg {
+  width: 396px;
+  height: 70px;
+}
+
+.ham-menu {
+  display: none;
+}
+
+.sub-btn {
+  margin-left: 0;
+}

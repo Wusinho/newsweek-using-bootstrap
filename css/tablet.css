@@ -43,7 +43,12 @@
   grid-row-start: 1;
   grid-row-end: 7;
   position: sticky;
-  top: -1300px;
+  top: -1000px;
+}
+
+.featured-stories img {
+  max-height: 220px;
+  object-fit: cover;
 }
 
 .culture-cont {
@@ -160,7 +165,7 @@
 .nl-cont,
 .firstline-tablet-v,
 .footer-div-firstline {
-  flex-direction: row !important; 
+  flex-direction: row !important;
 }
 
 .col-md-7 {
