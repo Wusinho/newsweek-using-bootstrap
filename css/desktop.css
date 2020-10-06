@@ -1,5 +1,6 @@
 header {
   height: 95px;
+  position: relative !important;
 }
 
 .mid-header {
@@ -16,6 +17,51 @@ header {
   display: none;
 }
 
+.weather {
+  top: 12px;
+  display: block !important;
+  font: 16px/34px "Roboto Condensed", sans-serif;
+  color: white;
+}
+
+.menu {
+  right: 10px;
+  top: 30px;
+  bottom: 0;
+}
+
 .sub-btn {
   margin-left: 0;
+}
+
+.bot-header {
+  position: relative;
+  display: block;
+  padding: 15px 0;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  z-index: 1;
+  background-color: white;
+  border-bottom-color: #f4f5f6;
+}
+
+.bot-list {
+  width: 100%;
+  display: flex;
+  color: black;
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.bot-list li {
+  border-left-style: solid;
+  border-left-color: #d9d9d9;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.bot-list li:first-child {
+  border-left-style: 0;
 }

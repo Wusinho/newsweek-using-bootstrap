@@ -17,16 +17,25 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/tablet.css">
   <link rel="stylesheet" media="screen and (min-width: 992px)" href="css/desktop.css">
+  <script src="https://kit.fontawesome.com/27e8f78942.js" crossorigin="anonymous"></script>
   <title>Newsweek</title>
 </head>
 
 <body>
-  <header class="header fixed-top">
+  <header class="header sticky-top">
     <div class="container">
       <nav>
         <div class="top-header">
-          <div class="menu d-flex justify-content-end align-items-center">
+          <div class="weather d-flex justify-content-start flex-column">
+            <div class="country">
+              <b>25° Panama City, PA ></b>
+            </div>
+            <div class="date">
+              <div>Tue, Oct 06, 2020</div>
+            </div>
+          </div>
 
+          <div class="menu d-flex justify-content-end align-items-center">
             <div class="profile">
               <div class="lgn">
                 <button class="lgn-btn" type="button">LOGIN</button>
@@ -75,6 +84,49 @@
                   d="M2 10.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
               </svg>
             </a>
+          </div>
+        </div>
+
+        <div class="bot-header">
+          <div class="d-flex">
+            <ul class="bot-list">
+              <li>
+                <a href="#">U.S.</a>
+              </li>
+              <li>
+                <a href="#">World</a>
+              </li>
+              <li>
+                <a href="#">Business</a>
+              </li>
+              <li>
+                <a href="#">Tech & Science</a>
+              </li>
+              <li>
+                <a href="#">Culture</a>
+              </li>
+              <li>
+                <a href="#">Newsgeek</a>
+              </li>
+              <li>
+                <a href="#">Sports</a>
+              </li>
+              <li>
+                <a href="#">Health</a>
+              </li>
+              <li>
+                <a href="#">The Debate</a>
+              </li>
+              <li>
+                <a href="#">Vantage</a>
+              </li>
+              <li>
+                <a href="#">Weather</a>
+              </li>
+            </ul>
+            <form class="search-form" action="#" method="GET">
+              <input class="search" type="search" placeholder="Search"><i class="fas fa-search"></i>
+            </form>
           </div>
         </div>
       </nav>
