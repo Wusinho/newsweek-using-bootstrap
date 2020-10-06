@@ -4,7 +4,7 @@
 
 We used Bootstrap Framework to create a clone of News Week website.
 
-![Desktop](Screenshots/Desktop.pngDesktop.png)
+![Desktop](Screenshots/Desktop.png)
 ![Tablet](Screenshots/Tablet.png)
 ![Phone](Screenshots/Phone.png)
 
