@@ -58,11 +58,15 @@ header {
 }
 
 .bot-list li {
-  border-left-style: solid;
-  border-left-color: #d9d9d9;
+  border-left: 1px solid #d9d9d9;
   flex-grow: 1;
   text-align: center;
-  border-left: 1px solid #d9d9d9;
+}
+
+.trending-list li {
+  flex: none;
+  text-align: center;
+  padding: 0 0 0 30px;
 }
 
 .bot-list li:first-child {
@@ -90,12 +94,6 @@ header {
   line-height: 16px;
   text-transform: uppercase;
   text-align: center;
-}
-
-.trending-list li {
-  flex: none;
-  text-align: center;
-  padding: 0 0 0 30px;
 }
 
 .trending-list li:first-child {
@@ -135,7 +133,7 @@ header {
 }
 
 .col-1 {
-  width: 41%
+  width: 41%;
 }
 
 .col-2 {

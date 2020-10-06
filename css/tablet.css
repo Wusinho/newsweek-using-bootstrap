@@ -1,4 +1,4 @@
-/*Header Navbar*/
+ /* Header Navbar  */
 .menu {
   position: absolute;
   bottom: 12px;
@@ -57,6 +57,16 @@
   justify-content: space-between;
 }
 
+.col-sm-4 img,
+.col-sm-3 img {
+  width: auto;
+  max-width: 100%;
+  min-width: 162px;
+  min-height: 170px;
+  object-fit: cover;
+  max-height: 100%;
+}
+
 .my-turn .img img,
 .cnt .img img {
   width: 100%;
@@ -64,7 +74,7 @@
 
 .turn-1,
 .cnt-1 {
-  font: bold 16px/19px;
+  font: bold 16px/19px "Roboto Condensed", sans-serif;
   width: 100%;
   padding: 0 10px;
 }
@@ -73,7 +83,6 @@
 .cnt-1:first-child {
   padding-left: 0;
 }
-
 
 .player2 .d-flex {
   justify-content: space-between;
@@ -95,23 +104,13 @@
 }
 
 .mags-cont article {
-  width: 33.33%
+  width: 33.33%;
 }
 
 .mag-1,
 .mags-cont article,
 .col-sm-3 {
   padding: 0 15px;
-}
-
-.col-sm-4 img,
-.col-sm-3 img {
-  width: auto;
-  max-width: 100%;
-  min-width: 162px;
-  min-height: 170px;
-  object-fit: cover;
-  max-height: 100%;
 }
 
 .mags-top h5,
@@ -141,8 +140,8 @@
   flex: auto;
 }
 
-.mag-cont .info{
-  text-align: left!important;
+.mag-cont .info {
+  text-align: left !important;
   padding-left: 30px;
 }
 
