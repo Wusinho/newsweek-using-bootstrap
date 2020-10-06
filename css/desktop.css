@@ -1,6 +1,5 @@
 header {
   height: 95px;
-  position: relative !important;
 }
 
 .mid-header {
@@ -35,8 +34,8 @@ header {
 }
 
 .bot-header {
-  position: relative;
   display: block;
+  position: relative;
   padding: 10px 5px;
   border-bottom-width: 2px;
   border-bottom-style: solid;
@@ -100,12 +99,6 @@ header {
   color: black;
 }
 
-.search-form {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
 .search {
   padding-left: 10px;
   width: 50%;
@@ -130,6 +123,7 @@ header {
 
 .col-3 .sticky-top {
   top: -300px;
+  z-index: 1px;
 }
 
 .col-1 {

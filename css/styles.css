@@ -40,17 +40,18 @@ h6 {
   font-weight: 700;
 }
 
+.sticky-top {
+  z-index: 2;
+}
+
+.col-1 .sticky-top,
+.col-3 .sticky-top {
+  z-index: 1;
+}
+
 .container-fluid,
 .container {
   max-width: 1310px;
-}
-
-.white {
-  color: white;
-}
-
-.red {
-  color: #f72210;
 }
 
 .col,
@@ -65,17 +66,13 @@ h6 {
 /*  HEADER NAVBAR  */
 header {
   background-color: #f72210;
-  z-index: 9999 !important;
+  z-index: 9999;
 }
 
 .brand svg {
   fill: white;
   width: 132px;
   height: 20px;
-}
-
-.lgn {
-  display: none;
 }
 
 .lgn-btn {
@@ -137,7 +134,8 @@ header {
   fill: rgba(255, 255, 255, 0.55);
 }
 
-.bot-header {
+.bot-header,
+.lgn {
   display: none;
 }
 
@@ -443,6 +441,7 @@ header {
 .col-sm-4,
 .col-sm-3 {
   padding: 0;
+  max-width: 100%;
 }
 
 .cover {
@@ -491,7 +490,6 @@ header {
 }
 
 /* EDITORS PICK */
-
 .editors-pick .n-title {
   border-bottom: 1px solid #d9d9d9;
   padding-bottom: 5px;
@@ -499,6 +497,11 @@ header {
 
 .editors-pick article {
   padding-bottom: 20px;
+}
+
+.col-sm-6 {
+  max-width: 100%;
+  flex: auto
 }
 
 .col-sm-6 h3 {
