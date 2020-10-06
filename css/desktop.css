@@ -123,7 +123,6 @@ header {
 
 .col-3 .sticky-top {
   top: -300px;
-  z-index: 1px;
 }
 
 .col-1 {
