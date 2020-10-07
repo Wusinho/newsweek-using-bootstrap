@@ -1,0 +1,163 @@
+header {
+  height: 95px;
+}
+
+.mid-header {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.brand svg {
+  width: 396px;
+  height: 70px;
+}
+
+.weather {
+  top: 12px;
+  font: 16px/34px "Roboto Condensed", sans-serif;
+  color: white;
+}
+
+.menu {
+  right: 10px;
+  top: 30px;
+  bottom: 0;
+}
+
+.sub-btn {
+  margin-left: 0;
+}
+
+.bot-header {
+  position: relative;
+  padding: 10px 5px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  background-color: white;
+  border-bottom-color: #f4f5f6;
+}
+
+.bot-list {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.bot-list li {
+  border-left: 1px solid #d9d9d9;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.trending-list li {
+  flex: none;
+  text-align: center;
+  padding: 0 0 0 30px;
+}
+
+.bot-list li:first-child {
+  border-left: 0;
+}
+
+.bot-list li a:hover,
+.trending-list li a:hover {
+  color: #f72310;
+  text-decoration: none;
+}
+
+.trending-topics {
+  border-top: 2px solid #f4f5f7;
+  padding-top: 13px;
+  margin-right: -160px;
+  margin-bottom: -10px;
+  position: relative;
+}
+
+.trending-list {
+  display: flex;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.trending-list li:first-child {
+  color: black;
+}
+
+.search {
+  padding-left: 10px;
+  width: 50%;
+  height: 100%;
+}
+
+.fa-search {
+  font-size: 20px;
+}
+
+.top-wrapper {
+  margin-top: 90px;
+}
+
+.col-4 {
+  width: 71%;
+}
+
+.col-3 {
+  width: 29%;
+}
+
+.col-3 .sticky-top {
+  top: -300px;
+}
+
+.col-1 {
+  width: 41%;
+}
+
+.col-2 {
+  width: 59%;
+}
+
+.editors-pick .col-sm-6 {
+  max-width: 25%;
+}
+
+.sub-art {
+  max-width: 65%;
+}
+
+.nl-bot {
+  max-width: 35%;
+  padding-top: 0;
+}
+
+.nl-cont {
+  height: 100%;
+  padding-bottom: 28px;
+}
+
+.nl-cont .img img {
+  height: 100%;
+}
+
+.sub-cont {
+  justify-content: space-between;
+}
+
+form {
+  flex-direction: column;
+}
+
+.nl-cont .info .signup-btn {
+  border-radius: 3px;
+  margin-top: 8px;
+}

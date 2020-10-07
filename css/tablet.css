@@ -1,0 +1,150 @@
+/* Header Navbar */
+.menu {
+  position: absolute;
+  bottom: 12px;
+}
+
+.sub-btn {
+  font-size: 18px;
+  line-height: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.featured-stories,
+.debate-cont,
+.more-stories,
+.culture-cont {
+  padding-top: 0;
+}
+
+.footer-div-firstline {
+  flex-direction: row !important;
+}
+
+.col,
+.col-1,
+.col-2,
+.col-3,
+.col-4 {
+  max-width: 100%;
+}
+
+.col-1 {
+  width: 45%;
+}
+
+.col-1 .sticky-top {
+  top: -850px;
+  z-index: 1;
+}
+
+.col-2 {
+  width: 55%;
+}
+
+.col-sm-4 img,
+.col-sm-3 img {
+  width: auto;
+  max-width: 100%;
+  min-width: 162px;
+  min-height: 170px;
+  object-fit: cover;
+  max-height: 100%;
+}
+
+.my-turn .img img,
+.cnt .img img {
+  width: 100%;
+}
+
+.turn-1,
+.cnt-1 {
+  font: bold 16px/19px "Roboto Condensed", sans-serif;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.turn-1:first-child,
+.cnt-1:first-child {
+  padding-left: 0;
+}
+
+.player2 .d-flex {
+  justify-content: space-between;
+}
+
+.magazine-art,
+.mags-cont,
+.mags-bot {
+  display: flex;
+}
+
+.mag-1 {
+  width: 25%;
+  align-self: center;
+}
+
+.mags-top {
+  width: 75%;
+}
+
+.mags-cont article {
+  width: 33.33%;
+}
+
+.mag-1,
+.mags-cont article,
+.col-sm-3 {
+  padding: 0 15px;
+}
+
+.mags-top h5,
+.mags-bot h5 {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.col-sm-6 {
+  max-width: 50%;
+}
+
+.section-pick .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.section-pick .col-sm-6 {
+  min-width: 100%;
+}
+
+.col-md-7 {
+  max-width: 100%;
+  flex: auto;
+}
+
+.mag-cont .img {
+  height: auto;
+}
+
+.mag-cont .info {
+  text-align: left;
+  padding-left: 30px;
+}
+
+.nl-cont .img {
+  min-width: 50%;
+}
+
+.nl-cont .img img {
+  min-height: 200px;
+}
+
+.firstline-tablet-v {
+  justify-content: space-between;
+}
+
+.firstline-tablet-v,
+.footer-div-firstline {
+  align-items: flex-end;
+}

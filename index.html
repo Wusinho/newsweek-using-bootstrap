@@ -1,0 +1,1989 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/png" href="https://g.newsweek.com/themes/newsweek/favicons/favicon-32x32.png"
+    sizes="32x32">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Condensed:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/tablet.css">
+  <link rel="stylesheet" media="screen and (min-width: 992px)" href="css/desktop.css">
+  <script src="https://kit.fontawesome.com/27e8f78942.js" crossorigin="anonymous"></script>
+  <title>Newsweek</title>
+</head>
+
+<body>
+  <header class="header sticky-top">
+    <div class="container">
+      <nav>
+        <div class="top-header">
+          <div class="weather d-lg-flex justify-content-start flex-column d-none d-sm-none d-md-none d-lg-block">
+            <div class="country">
+              <b>25° Panama City, PA ></b>
+            </div>
+            <div class="date">
+              <div>Tue, Oct 06, 2020</div>
+            </div>
+          </div>
+
+          <div class="menu d-flex justify-content-end align-items-center">
+            <div class="profile">
+              <div class="lgn d-none d-sm-none d-md-block">
+                <button class="lgn-btn" type="button">LOGIN</button>
+              </div>
+              <a class="prof-logo d-block d-md-none" href="#">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                </svg>
+              </a>
+            </div>
+
+            <div class="subscribe">
+              <button class="sub-btn rounded-pill" type="button">SUBSCRIBE <svg width="1em" height="1em"
+                  viewBox="0 0.6 14 16" class="bi bi-chevron-right" fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="mid-header">
+          <div class="logo-cont">
+            <a class="brand" href="#">
+              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60"
+                style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+                <g>
+                  <path class="st0"
+                    d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
+                  </path>
+                </g>
+              </svg>
+            </a>
+          </div>
+
+          <div class="ham-menu d-lg-none">
+            <a href="#">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-justify" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M2 10.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="bot-header d-none d-lg-block">
+      <div class="d-flex">
+        <ul class="bot-list">
+          <li>
+            <a href="#">U.S.</a>
+          </li>
+          <li>
+            <a href="#">World</a>
+          </li>
+          <li>
+            <a href="#">Business</a>
+          </li>
+          <li>
+            <a href="#">Tech & Science</a>
+          </li>
+          <li>
+            <a href="#">Culture</a>
+          </li>
+          <li>
+            <a href="#">Newsgeek</a>
+          </li>
+          <li>
+            <a href="#">Sports</a>
+          </li>
+          <li>
+            <a href="#">Health</a>
+          </li>
+          <li>
+            <a href="#">The Debate</a>
+          </li>
+          <li>
+            <a href="#">Vantage</a>
+          </li>
+          <li>
+            <a href="#">Weather</a>
+          </li>
+        </ul>
+        <form class="search-form d-flex flex-row align-items-center" action="#" method="GET">
+          <input class="search" type="search" placeholder="Search"><i class="fas fa-search"></i>
+        </form>
+      </div>
+      <div class="trending-topics">
+        <ul class="trending-list">
+          <li>
+            <a href="#">TRENDING</a>
+          </li>
+          <li>
+            <a href="#">DONALD TRUMP</a>
+          </li>
+          <li>
+            <a href="#">JOE BIDEN</a>
+          </li>
+          <li>
+            <a href="#">STIMULUS PACKAGE</a>
+          </li>
+          <li>
+            <a href="#">CORONAVIRUS</a>
+          </li>
+          <li>
+            <a href="#">2020 ELECTION</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main class="main container-fluid">
+    <div class="top-wrapper row">
+      <div class="col-4">
+        <div class="row">
+          <div class="col-1 order-2 order-md-1">
+            <div class="featured-stories sticky-top">
+              <h3 class="block-title">
+                FEATURED STORIES
+              </h3>
+
+              <article>
+                <div class="wrap">
+                  <div class="category">
+                    <a href="#">WORLD</a>
+                  </div>
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1643329/armenia-artillery-azerbaijan-nagorno-karabakh.webp?w=466&h=311&q=90&f=e3bc8391bcd6ce1496033f0a9c71fcfd"
+                          alt="war">
+                      </picture>
+                    </a>
+                  </div>
+                </div>
+                <h1 class="headline">
+                  <a href="#">As Armenia, Azerbaijan Fight, Here's Where U.S., Russia, Turkey, Iran Stand</a>
+                </h1>
+                <div class="info">
+                  On Tuesday, both Turkey and Iran reportedly found themselves directly involved in the battle, while
+                  the
+                  U.S.
+                  and Russia remained closely engaged, calling for an immediate de-escalation.
+                </div>
+              </article>
+
+              <article>
+                <div class="wrap">
+                  <div class="category">
+                    <a href="#">U.S.</a>
+                  </div>
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1643326/joe-biden.webp?w=466&h=311&q=90&f=28f2a34b8758392f4dfb14073c44a98c"
+                          alt="joe biden">
+                      </picture>
+                    </a>
+                  </div>
+                </div>
+                <h1 class="headline">
+                  <a href="#">Biden Paid $299,000 in Federal Taxes, Received $47,000 Refund in 2019</a>
+                </h1>
+                <div class="info">
+                  Biden and his running mate, Kamala Harris, released their 2019 returns ahead of Tuesday's presidential
+                  debate.
+                </div>
+              </article>
+
+              <article>
+                <div class="wrap">
+                  <div class="category">
+                    <a href="#">NEWS</a>
+                  </div>
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1643304/hunter-biden.webp?w=466&h=311&q=90&f=725057dc5110fc9bd59ad6533b9c1cf9"
+                          alt="campaign">
+                      </picture>
+                    </a>
+                  </div>
+                </div>
+                <h1 class="headline">
+                  <a href="#">Trump Campaign Demands Answers on Hunter Biden's $3.5 Million Wire Transfer</a>
+                </h1>
+                <div class="info">
+                  In a list of 17 questions the Trump campaign wants Democratic nominee Joe Biden to answer in Tuesday's
+                  debate,
+                  their first targets Biden's son Hunter's previous financial transactions.
+                </div>
+              </article>
+
+              <article>
+                <div class="wrap">
+                  <div class="category">
+                    <a href="#">U.S.</a>
+                  </div>
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1643323/amy-coney-barrett-nomination-ceremony.webp?w=466&h=311&q=90&f=66866c870d450a196a6d65dccc101530"
+                          alt="amy coney">
+                      </picture>
+                    </a>
+                  </div>
+                </div>
+                <h1 class="headline">
+                  <a href="#">Amy Coney Barrett's Nomination Energizes Democratic Women's Groups </a>
+                </h1>
+                <div class="info">
+                  "This is something that people are willing to get in the streets and fight for," said Rachel O'Leary
+                  Carmona,
+                  executive director of Women's March.
+                </div>
+              </article>
+
+              <article>
+                <div class="wrap">
+                  <div class="category">
+                    <a href="#">NEWS</a>
+                  </div>
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1642989/roman-catholic-cardinal-raymond-burke.webp?w=466&h=311&q=90&f=e84ba31c8e2a9376d876c1fed4cdaeb9"
+                          alt="cardinal">
+                      </picture>
+                    </a>
+                  </div>
+                </div>
+                <h1 class="headline">
+                  <a href="#">Catholic Cardinal Says Pro-Choice Joe Biden Shouldn't Receive Communion</a>
+                </h1>
+                <div class="info">
+                  A conservative Roman Catholic cardinal says Democratic presidential nominee Joe Biden should not
+                  receive
+                  Holy
+                  Communion during Sunday Masses because his views on abortion are at sharp odds with Vatican teaching.
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="col-2 order-1 order-md-2">
+            <div class="top-story">
+
+              <h3 class="block-title">
+                TOP STORY
+              </h3>
+
+              <article>
+                <div class="wrap">
+                  <div class="category">
+                    <a href="#">OPINION</a>
+                  </div>
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1643687/first-presidential-debate.webp?w=591&h=364&f=bf1c13645014d799d15d7816fd2973ce"
+                          alt="presidential debate">
+                      </picture>
+                    </a>
+                  </div>
+                </div>
+                <h1 class="headline">
+                  <a href="#">Live Updates: Trump and Biden Meet for First Presidential Debate</a>
+                </h1>
+                <div class="info">
+                  Newsweek columnists and guests weigh in on the candidates' performances.
+                </div>
+              </article>
+
+            </div>
+
+            <div class="culture-cont">
+              <div class="my-turn-cont">
+                <h3 class="block-title">
+                  MY TURN
+                </h3>
+                <div class="my-turn d-md-flex justify-content-between">
+                  <div class="turn-1">
+                    <div class="img">
+                      <a href="#">
+                        <picture>
+                          <img
+                            src="https://d.newsweek.com/en/full/1641781/models-supermodels-digital-supermodels-fashion.webp?w=397&h=397&f=b29041c043886cb00ea3ec102e8a87f0"
+                            alt="digital models">
+                        </picture>
+                      </a>
+                    </div>
+                    <div class="info">
+                      <a href="#">'I Have Created a Squad of Digital Supermodels'</a>
+                    </div>
+                  </div>
+
+                  <div class="turn-1">
+                    <div class="img">
+                      <a href="#">
+                        <picture>
+                          <img
+                            src="https://d.newsweek.com/en/full/1642961/refugee-palestine-spain-passport-citizenship.webp?w=397&h=397&f=612bd476aa04dbec3b5a31fb5904ac8b"
+                            alt="refugee">
+                        </picture>
+                      </a>
+                    </div>
+                    <div class="info">
+                      <a href="#">'I'm a Palestinian Refugee. I Became a Spanish Citizen Due To Jewish Roots'</a>
+                    </div>
+                  </div>
+
+                  <div class="turn-1">
+                    <div class="img">
+                      <a href="#">
+                        <picture>
+                          <img
+                            src="https://d.newsweek.com/en/full/1641725/alligator-attack-alligator-florida.webp?w=397&h=397&f=97795548143a436e306e6a623c46bf13"
+                            alt="reptile">
+                        </picture>
+                      </a>
+                    </div>
+                    <div class="info">
+                      <a href="#">'I Was Attacked By an 8ft Alligator in Florida'</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cnt-cont ">
+                <h3 class="block-title">CULTURE & TRAVEL</h3>
+                <div class="cnt d-md-flex justify-content-between">
+                  <div class="cnt-1">
+                    <div class="wrap">
+                      <div class="img">
+                        <div class="tags">
+                          <a href="#">EMMYS</a>
+                        </div>
+                        <a href="#">
+                          <picture>
+                            <img
+                              src="https://d.newsweek.com/en/full/1640554/zendaya.webp?w=397&h=397&f=8e5f8ea8c3c7d315e48c42d9d4ae7f63"
+                              alt="zendaya">
+                          </picture>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="info">
+                      <a href="#">50 Black Actors Who Made Entertainment History</a>
+                    </div>
+                  </div>
+
+                  <div class="cnt-1">
+                    <div class="wrap">
+                      <div class="tags">
+                        <a href="#">TRAVEL</a>
+                      </div>
+                      <div class="img">
+                        <a href="#">
+                          <picture>
+                            <img
+                              src="https://d.newsweek.com/en/full/1639341/long-way-hero-2.webp?w=397&h=397&f=d4fac35eb99e067daa6070b184b9b606"
+                              alt="moto">
+                          </picture>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="info">
+                      <a href="#">Choose Electric: Ewan McGregor Rides Into the Future in 'Long Way Up'</a>
+                    </div>
+                  </div>
+
+                  <div class="cnt-1">
+                    <div class="wrap">
+                      <div class="tags">
+                        <a href="#">TRAVEL</a>
+                      </div>
+                      <div class="img">
+                        <a href="#">
+                          <picture>
+                            <img
+                              src="https://d.newsweek.com/en/full/1635019/san-marino.webp?w=397&h=397&f=abca48a2f88128451a6b8ca8682b20ef"
+                              alt="castle">
+                          </picture>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="info">
+                      <a href="#">The Countries With the Least Amount of Travel Buzz, According to Google </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="more-stories d-flex flex-column">
+              <h3 class="block-title">
+                MORE STORIES
+              </h3>
+
+              <article>
+                <div class="img">
+                  <a href="#">
+                    <picture>
+                      <img
+                        src="https://d.newsweek.com/en/full/1643789/st-louis.jpg?w=95&h=95&f=1f37b1280d787d55fa75e59edfdcc225"
+                        alt="st louis">
+                    </picture>
+                  </a>
+                </div>
+                <h4>
+                  <a href="#">St. Louis Gun Couple to Embark on 'Team Trump' Bus Tour of Pennsylvania</a>
+                </h4>
+                <div class="summary">
+                  Mark and Patricia McCloskey, accused of felony unlawful use of a weapon, set to embark on three-stop
+                  "Team
+                  Trump Bus Tour."
+                </div>
+              </article>
+
+              <article>
+                <div class="img">
+                  <a href="#">
+                    <picture>
+                      <img
+                        src="https://d.newsweek.com/en/full/1643787/aoc.jpg?w=95&h=95&f=fcef02986374ed0d32180a63bacf5282"
+                        alt="Alexandra Cortez">
+                    </picture>
+                  </a>
+                </div>
+                <h4>
+                  <a href="#">AOC Calls Trump a 'White Supremacist' After Proud Boys Debate Comments</a>
+                </h4>
+                <div class="summary">
+                  Rep. Alexandria Ocasio-Cortez (D-NY) made the remark in response to comments made by the president in
+                  the
+                  election debate.
+                </div>
+              </article>
+
+              <article>
+                <div class="img">
+                  <a href="#">
+                    <picture>
+                      <img
+                        src="https://d.newsweek.com/en/full/1643833/joe-biden.jpg?w=95&h=95&l=58&t=24&f=178a9d4ffd8e6364249cc42bf025933c"
+                        alt="joe biden">
+                    </picture>
+                  </a>
+                </div>
+                <h4>
+                  <a href="#">Joe Biden's 'Will You Shut Up, Man' Debate Line Gives Birth to Meme</a>
+                </h4>
+                <div class="summary">
+                  Biden supporters and Trump critics could relate to Biden's "will you shut up, man?" line as many
+                  viewers
+                  grew
+                  tired of the president interrupting.
+                </div>
+              </article>
+
+              <article>
+                <div class="img">
+                  <a href="#">
+                    <picture>
+                      <img
+                        src="https://d.newsweek.com/en/full/1643843/young-apprentices-begin-working-cammell-laird.jpg?w=95&h=95&f=696f048aa38709289a5e522512d53a61"
+                        alt="st young">
+                    </picture>
+                  </a>
+                </div>
+                <h4>
+                  <a href="#">Exclusive: Illegal Unpaid Internships Still Advertised in the U.K.</a>
+                </h4>
+                <div class="summary">
+                  Unpaid internships have been slammed as exploitative by the government and campaigners who say they
+                  increase
+                  inequality.
+                </div>
+              </article>
+
+              <article>
+                <div class="img">
+                  <a href="#">
+                    <picture>
+                      <img
+                        src="https://d.newsweek.com/en/full/1643850/proud-boys-shirt.jpg?w=95&h=95&f=9d35bd93936b03c722b97195857dfbd6"
+                        alt="proud boys">
+                    </picture>
+                  </a>
+                </div>
+                <h4>
+                  <a href="#">Proud Boys in U.K. Buying Fred Perry Polo Shirts to Ship to U.S.</a>
+                </h4>
+                <div class="summary">
+                  Members of the group in the U.K. said they were attempting to buy as many of the yellow-and-black polo
+                  shirts
+                  as possible, after they were pulled from sale in North America.
+                </div>
+              </article>
+
+              <article>
+                <div class="img">
+                  <a href="#">
+                    <picture>
+                      <img
+                        src="https://d.newsweek.com/en/full/1643797/iran-2020-election-donald-trump-joe-biden.jpg?w=95&h=95&f=5b72b5f1e665d288cf4265ce1e448ad2"
+                        alt="iran">
+                    </picture>
+                  </a>
+                </div>
+                <h4>
+                  <a href="#">'Chaotic' Trump-Biden Debate Exposes Cracks in U.S. Democracy: Iran Media</a>
+                </h4>
+                <div class="summary">
+                  Iran is closely watching the November contest, hoping for relief from Trump's "maximum pressure"
+                  campaign.
+                </div>
+              </article>
+
+              <article>
+                <div class="img">
+                  <a href="#">
+                    <picture>
+                      <img
+                        src="https://d.newsweek.com/en/full/1639227/joe-rogan.jpg?w=95&h=95&l=42&t=20&f=46b50d51767d05b96b45862306bbc7b4"
+                        alt="joe rogan">
+                    </picture>
+                  </a>
+                </div>
+                <h4>
+                  <a href="#">Calls For Joe Rogan to Host Presidential Debate After Chris Wallace Blasted</a>
+                </h4>
+                <div class="summary">
+                  Twitter erupted with harsh words for Wallace last night, with many lambasting the anchor for presiding
+                  over
+                  a
+                  chaotic debate and favoring Rogan's interview style.
+                </div>
+              </article>
+
+              <article>
+                <div class="img">
+                  <a href="#">
+                    <picture>
+                      <img
+                        src="https://d.newsweek.com/en/full/1643779/riot-police-black-lives-matter.jpg?w=95&h=95&f=c56e3a05ce729eeaf0c06ce897a73423"
+                        alt="riot">
+                    </picture>
+                  </a>
+                </div>
+                <h4>
+                  <a href="#">Police Driver Appears to Give BLM Protesters the Finger Outside Debate</a>
+                </h4>
+                <div class="summary">
+                  Groups of Black Lives Matter protesters gathered in Cleveland to call for justice and the ousting of
+                  President
+                  Donald Trump.
+                </div>
+              </article>
+
+              <article>
+                <div class="img">
+                  <a href="#">
+                    <picture>
+                      <img
+                        src="https://d.newsweek.com/en/full/1643847/trump-nra-speech.jpg?w=95&h=95&f=66193ce6686c3319fc8b58aa46681fbb"
+                        alt="nra speech">
+                    </picture>
+                  </a>
+                </div>
+                <h4>
+                  <a href="#">NRA Issues Rallying Cry for Trump: 'Vote Like Your Gun Depends On It'</a>
+                </h4>
+                <div class="summary">
+                  In a string of tweets during Tuesday's debate, the NRA congratulated Trump for his record on Second
+                  Amendment
+                  issues over the last four years.
+                </div>
+              </article>
+
+              <article>
+                <div class="img">
+                  <a href="#">
+                    <picture>
+                      <img
+                        src="https://d.newsweek.com/en/full/1643809/meghan-markle-canada-house-youth-event.jpg?w=95&h=95&f=7a4b352cad19736a56fdf3dfb0d4da24"
+                        alt="meghan markle">
+                    </picture>
+                  </a>
+                </div>
+                <h4>
+                  <a href="#">Meghan Markle Says Comments Are 'Not Controversial' After Donald Trump Spat</a>
+                </h4>
+                <div class="summary">
+                  The Duchess of Sussex claimed "what ends up being inflammatory is people's interpretation" after
+                  following
+                  calls to be stripped of her titles over her election remarks.
+                </div>
+              </article>
+
+              <article>
+                <div class="img">
+                  <a href="#">
+                    <picture>
+                      <img
+                        src="https://d.newsweek.com/en/full/1643784/students-college-stock-getty.jpg?w=95&h=95&f=e7b027bbbabb1fadce920560ec5f8d95"
+                        alt="st louis">
+                    </picture>
+                  </a>
+                </div>
+                <h4>
+                  <a href="#">CSULB Student Parties Lead to Coronavirus Outbreak, at Least 22 Infected</a>
+                </h4>
+                <div class="summary">
+                  The students may face disciplinary action for putting their community at risk, according to an
+                  official.
+                </div>
+              </article>
+
+              <article>
+                <div class="img">
+                  <a href="#">
+                    <picture>
+                      <img
+                        src="https://d.newsweek.com/en/full/1643796/masks.jpg?w=95&h=95&f=3914eaeb7a9cf6ec4292d39bc2eccab9"
+                        alt="karen">
+                    </picture>
+                  </a>
+                </div>
+                <h4>
+                  <a href="#">Woman Assaults Boss Who Asked Her to Wear Mask at Work, Police Say</a>
+                </h4>
+                <div class="summary">
+                  Tina Hoch was taken into custody after the incident at her workplace in the town of Sand Lake, New
+                  York.
+                </div>
+              </article>
+
+              <article class="hid">
+                <div class="img">
+                  <a href="#">
+                    <picture>
+                      <img
+                        src="https://d.newsweek.com/en/full/1643809/meghan-markle-canada-house-youth-event.jpg?w=95&h=95&f=7a4b352cad19736a56fdf3dfb0d4da24"
+                        alt="meghan markle">
+                    </picture>
+                  </a>
+                </div>
+                <h4>
+                  <a href="#">Meghan Markle Says Comments Are 'Not Controversial' After Donald Trump Spat</a>
+                </h4>
+                <div class="summary">
+                  The Duchess of Sussex claimed "what ends up being inflammatory is people's interpretation" after
+                  following
+                  calls to be stripped of her titles over her election remarks.
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3">
+        <div class="sticky-top">
+          <div class="debate-cont">
+            <h3 class="block-title">THE DEBATE</h3>
+            <div class="player1">
+              <div class="d-flex align-items-center">
+                <div class="img rounded-circle">
+                  <a href="#">
+                    <picture>
+                      <img
+                        src="https://d.newsweek.com/en/full/1641374/robert-p-george.webp?w=150&h=150&f=365b9cdc1ef783cc2559d38ccbf310b9"
+                        alt="Robert">
+                    </picture>
+                  </a>
+                </div>
+                <div class="info">
+                  <div class="title">
+                    <a href="#">The Case for Amy Coney Barrett</a>
+                  </div>
+                  <div class="by-who">
+                    <span>BY</span> ROBERT P. GEORGE
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="vs-wrap">
+              <hr class="hr1">
+              <div class="decoration rounded-circle">VS</div>
+              <hr class="hr2">
+            </div>
+            <div class="player2">
+              <div class="d-flex align-items-center">
+                <div class="img rounded-circle order-2">
+                  <a href="#">
+                    <picture>
+                      <img
+                        src="https://d.newsweek.com/en/full/1523500/bridget-kelly.webp?w=150&h=150&f=b8865c559bb1db754f728fb108343548"
+                        alt="Bridget">
+                    </picture>
+                  </a>
+                </div>
+                <div class="info order-1">
+                  <div class="title">
+                    <a href="#">Replacing RBG with a Woman like Barrett Is Beyond Tokenism. It's an Affront</a>
+                  </div>
+                  <div class="by-who">
+                    <span>BY</span> BRIDGET KELLY
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="opinion-cont">
+            <h3 class="block-title">OPINION</h3>
+
+            <ul>
+
+              <li class="d-flex">
+                <div class="img rounded-circle">
+                  <a href="#">
+                    <picture>
+                      <img
+                        src="https://d.newsweek.com/en/full/97976/robert-reich.png?w=63&h=63&f=297351a03eaa549128026042394c9580"
+                        alt="Robert Reich">
+                    </picture>
+                  </a>
+                </div>
+                <div class="info">
+                  <a href="#">A Post-Election Civil War Is Unlikely. But Trump Nation Has Already Seceded</a>
+                  <div class="by-who">BY ROBERT REICH</div>
+                </div>
+              </li>
+
+              <li class="d-flex">
+                <div class="img rounded-circle">
+                  <a href="#">
+                    <picture>
+                      <img
+                        src="https://d.newsweek.com/en/full/1506965/charlie-kirk.png?w=63&h=63&f=dadcbab6cd325ee70d1bfe4df5a01410"
+                        alt="Charlie Kirk">
+                    </picture>
+                  </a>
+                </div>
+                <div class="info">
+                  <a href="#">How Trump Can Win the First Debate</a>
+                  <div class="by-who">BY CHARLIE KIRK</div>
+                </div>
+              </li>
+
+              <li class="d-flex">
+                <div class="img rounded-circle">
+                  <a href="#">
+                    <picture>
+                      <img
+                        src="https://d.newsweek.com/en/full/89510/marc-schulman.png?w=63&h=63&f=0544ec46ee21c238aad07cc8eaa35569"
+                        alt="Marc Schulman">
+                    </picture>
+                  </a>
+                </div>
+                <div class="info">
+                  <a href="#">How Did Israel Fail So Quickly, So Terribly on Coronavirus?</a>
+                  <div class="by-who">BY MARC SCHULMAN</div>
+                </div>
+              </li>
+
+              <li class="d-flex">
+                <div class="img rounded-circle">
+                  <a href="#">
+                    <picture>
+                      <img
+                        src="https://d.newsweek.com/en/full/1642906/scheindlin-clarke.png?w=63&h=63&f=9214da1d40506b86f1c0a24e37a0e563"
+                        alt="Shira and Kristen">
+                    </picture>
+                  </a>
+                </div>
+                <div class="info">
+                  <a href="#">Even Lincoln and Eisenhower Would Disapprove of Trump's SCOTUS Rush</a>
+                  <div class="by-who">BY SHIRA A. SCHEINLDIN and KRISTEN CLARKE</div>
+                </div>
+              </li>
+
+              <li class="d-flex">
+                <div class="img rounded-circle">
+                  <a href="#">
+                    <picture>
+                      <img
+                        src="https://d.newsweek.com/en/full/1642291/mary-eberstadt.png?w=63&h=63&f=8884c46ce7981df951ae693acc0482a3"
+                        alt="Mary Eberstadt">
+                    </picture>
+                  </a>
+                </div>
+                <div class="info">
+                  <a href="#">Why is There a Patriotism Gap?</a>
+                  <div class="by-who">BY MARY EBERSTADT</div>
+                </div>
+              </li>
+
+              <li class="d-flex">
+                <div class="img rounded-circle">
+                  <a href="#">
+                    <picture>
+                      <img
+                        src="https://d.newsweek.com/en/full/1642448/serena-sigillito.png?w=63&h=63&f=7e03ce787fa4bc826c298d8a20cc65fc"
+                        alt="Serena Sigillito">
+                    </picture>
+                  </a>
+                </div>
+                <div class="info">
+                  <a href="#">Amy Coney Barrett and the New Feminism of Interdependence</a>
+                  <div class="by-who">BY SERENA SIGILLITO</div>
+                </div>
+              </li>
+
+              <li class="d-flex">
+                <div class="img rounded-circle">
+                  <a href="#">
+                    <picture>
+                      <img
+                        src="https://d.newsweek.com/en/full/1594385/marianne-williamson.png?w=63&h=63&f=e5673fcb9ddab3bb801cfc7a5c103a2f"
+                        alt="Marianne Williamson">
+                    </picture>
+                  </a>
+                </div>
+                <div class="info">
+                  <a href="#">America's Cold Civil War </a>
+                  <div class="by-who">BY MARIANNE WILLIAMSON</div>
+                </div>
+              </li>
+
+              <li class="d-flex">
+                <div class="img rounded-circle">
+                  <a href="#">
+                    <picture>
+                      <img
+                        src="https://d.newsweek.com/en/full/1641958/emilie-kao-joel-griffith.png?w=63&h=63&f=c2acebda32a455c2200bd1cba9709b1b"
+                        alt="Emilie and Joel">
+                    </picture>
+                  </a>
+                </div>
+                <div class="info">
+                  <a href="#">What the United Nations Gets Wrong About Fighting Anti-Semitism</a>
+                  <div class="by-who">BY EMILIE KAO AND JOEL GRIFFITH</div>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="newsletter">
+            <div class="newsletter-form">
+              <div class="n-title">
+                <img class="icon-n" src="https://g.newsweek.com/themes/newsweek/favicons/apple-touch-icon.png"
+                  alt="icon">
+                START YOUR DAY WITH OUR TOP 5 ARTICLES
+              </div>
+              <form action="#">
+                <input class="signup-email" type="email" placeholder="Email Address">
+                <button class="signup-btn" type="submit">FREE SIGN UP <svg width="1em" height="1em" viewBox="2 2 16 16"
+                    class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bot-wrapper">
+      <div class="magazine">
+        <div class="in-magazine">
+          <div class="n-title d-flex justify-content-center align-items-center">
+            <img class="icon-n" src="https://g.newsweek.com/themes/newsweek/favicons/apple-touch-icon.png" alt="icon">
+            IN THE MAGAZINE
+          </div>
+          <div class="magazine-art">
+            <div class="mag-1">
+              <div class="wrap">
+                <div class="category">
+                  OCTOBER 16 ISSUE
+                </div>
+                <div class="img">
+                  <a href="#">
+                    <picture>
+                      <img
+                        src="https://d.newsweek.com/en/full/1643943/cover-october-09-16-2020.webp?w=450&h=600&q=90&f=19559fe5e83b6f04c694c92e8ff12047"
+                        alt="magaizne">
+                    </picture>
+                  </a>
+                </div>
+              </div>
+              <a class="see-all" href="#">SEE ALL FEATURES <svg width="1em" height="1em" viewBox="2 2 16 16"
+                  class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                </svg></a>
+            </div>
+
+            <div class="mags-top">
+              <div class="mags-cont">
+                <article class="col-sm-4">
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1641924/fe-rbg-banner.webp?w=466&h=311&l=44&t=48&q=90&f=af0eb1671e67711f928ea0a22de6d298"
+                          alt="mag">
+                      </picture>
+                    </a>
+                  </div>
+                  <div class="category">
+                    <span class="cover">COVER</span>
+                    <span class="cat">
+                      <a href="#">U.S.</a>
+                    </span>
+                  </div>
+                  <h5><a href="#">Biden Should Promise to Pack the Supreme Court to Save It From Partisan War</a></h5>
+                </article>
+
+                <article class="col-sm-4">
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1640316/rbg-memorial.webp?w=466&h=311&q=90&f=146a45944006b5527c954a6a500d9555"
+                          alt="politics">
+                      </picture>
+                    </a>
+                  </div>
+                  <div class="category">
+                    <span class="cover">FEATURES</span>
+                    <span class="cat">
+                      <a href="#">POLITICS</a>
+                    </span>
+                  </div>
+                  <h5><a href="#">If Elected, Who Would Joe Biden Pick for the Supreme Court?</a></h5>
+                </article>
+
+                <article class="col-sm-4">
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1641173/justice-ruth-bader-ginsburg.webp?w=466&h=311&q=90&f=cf4341f456bddd4cc13da18215502584"
+                          alt="Ruth">
+                      </picture>
+                    </a>
+                  </div>
+                  <div class="category">
+                    <span class="cover">FEATURES</span>
+                    <span class="cat">
+                      <a href="#">OPINION</a>
+                    </span>
+                  </div>
+                  <h5><a href="#">The Conservative Legacy of Ruth Bader Ginsburg </a></h5>
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <div class="mags-bot">
+            <article class="col-sm-3">
+              <div class="img">
+                <a href="#">
+                  <picture>
+                    <img
+                      src="https://d.newsweek.com/en/full/1643970/per-latinovote-05-1158241102.webp?w=466&h=311&q=90&f=9e390ddf1667e128c117c24d51cccd30"
+                      alt="Cuban">
+                  </picture>
+                </a>
+              </div>
+              <div class="category">
+                <span class="cover">PERISCOPE</span>
+                <span class="cat">
+                  <a href="#">CULTURE</a>
+                </span>
+              </div>
+              <h5><a href="#">Biden Tries to Close the Deal with Latinos, As Florida Remains A Headache</a></h5>
+            </article>
+
+            <article class="col-sm-3">
+              <div class="img">
+                <a href="#">
+                  <picture>
+                    <img
+                      src="https://d.newsweek.com/en/full/1641173/justice-ruth-bader-ginsburg.webp?w=466&h=311&q=90&f=cf4341f456bddd4cc13da18215502584"
+                      alt="Ruth">
+                  </picture>
+                </a>
+              </div>
+              <div class="category">
+                <span class="cover">FEATURES</span>
+                <span class="cat">
+                  <a href="#">OPINION</a>
+                </span>
+              </div>
+              <h5><a href="#">The Conservative Legacy of Ruth Bader Ginsburg </a></h5>
+            </article>
+
+            <article class="col-sm-3">
+              <div class="img">
+                <a href="#">
+                  <picture>
+                    <img
+                      src="https://d.newsweek.com/en/full/1639341/long-way-hero-2.webp?w=466&h=311&q=90&f=b45862b19a0efd036338e3e8300df802"
+                      alt="moto">
+                  </picture>
+                </a>
+              </div>
+              <div class="category">
+                <span class="cover">DOWNTIME</span>
+                <span class="cat">
+                  <a href="#">CULTURE</a>
+                </span>
+              </div>
+              <h5><a href="#">Choose Electric: Ewan McGregor Rides Into the Future in 'Long Way Up'</a></h5>
+            </article>
+
+            <article class="col-sm-3">
+              <div class="wrap">
+                <div class="category">
+                  <a href="#">IN FOCUS</a>
+                </div>
+                <div class="img">
+                  <a href="#">
+                    <picture>
+                      <img
+                        src="https://d.newsweek.com/en/full/1643954/ritual.jpg?w=480&h=320&q=90&f=c13501eeff2fb5d45ffe33983ed3dc2d"
+                        alt="ritual">
+                    </picture>
+                  </a>
+                </div>
+              </div>
+              <h5 class="title"><a href="#">THE RITUAL</a></h5>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="editors-pick">
+        <div class="n-title d-flex justify-content-center align-items-center">
+          <img class="icon-n" src="https://g.newsweek.com/themes/newsweek/favicons/apple-touch-icon.png" alt="icon">
+          EDITOR'S PICK
+        </div>
+
+        <div class="d-flex row flex-wrap">
+          <article class="col-sm-6">
+            <div class="wrap">
+              <div class="img">
+                <a href="#">
+                  <picture>
+                    <img
+                      src="https://d.newsweek.com/en/full/1643811/donald-trump-participates-first-debate.webp?w=466&h=311&f=224f649f6e24d06c976ccfbcad5248f3"
+                      alt="trump">
+                  </picture>
+                </a>
+              </div>
+              <div class="category">
+                <a href="#">POLITICS</a>
+              </div>
+            </div>
+            <h3><a href="#">What Donald Trump Tweeted After Fiery Presidential Debate With Joe Biden</a>
+            </h3>
+            <div class="summary">
+              President Trump sent a series of tweets and re-tweets following the first presidential debate of the 2020
+              election.
+            </div>
+          </article>
+
+          <article class="col-sm-6">
+            <div class="wrap">
+              <div class="img">
+                <a href="#">
+                  <picture>
+                    <img
+                      src="https://d.newsweek.com/en/full/1643010/armenia-azerbaijan-conflict-nagorno-karabakh-war.webp?w=466&h=311&f=d2ac9ff0ac7947bc4b4a0d4767b34742"
+                      alt="tank">
+                  </picture>
+                </a>
+              </div>
+              <div class="category">
+                <a href="#">WORLD</a>
+              </div>
+            </div>
+            <h3><a href="#">Why You Should Care About the Escalating Nagorno-Karabakh Conflict</a>
+            </h3>
+            <div class="summary">
+              Almost 100 people have been killed in the latest outbreak of fighting over the Caucasus enclave, the
+              status
+              of which has long been disputed by neighbors Armenia and Azerbaijan.
+            </div>
+          </article>
+
+          <article class="col-sm-6">
+            <div class="wrap">
+              <div class="img">
+                <a href="#">
+                  <picture>
+                    <img
+                      src="https://d.newsweek.com/en/full/1642299/trump.webp?w=466&h=311&f=de01d35ca1c4e5d35bf80c31804432ab"
+                      alt="trump">
+                  </picture>
+                </a>
+              </div>
+              <div class="category">
+                <a href="#">U.S.</a>
+              </div>
+            </div>
+            <h3><a href="#">Donald Trump, 'King of Twitter,' Is Being Outperformed by Joe Biden</a>
+            </h3>
+            <div class="summary">
+              As the Republican and Democrat prepare to spar in the more traditional setting of a debate, they have
+              already engaged each other on social media.
+            </div>
+          </article>
+
+          <article class="col-sm-6">
+            <div class="wrap">
+              <div class="img">
+                <a href="#">
+                  <picture>
+                    <img
+                      src="https://d.newsweek.com/en/full/1643052/pope.webp?w=466&h=311&f=93a3e5debe3b5030771d5a852dd21f3b"
+                      alt="pope">
+                  </picture>
+                </a>
+              </div>
+              <div class="category">
+                <a href="#">U.S.</a>
+              </div>
+            </div>
+            <h3><a href="#">Anti-Catholic Prejudice a Fear for 28 Percent of Voters, Poll Shows</a>
+            </h3>
+            <div class="summary">
+              More than a quarter of those asked said they felt there was a "growing hostility" towards Catholics in
+              America.
+            </div>
+          </article>
+
+          <article class="col-sm-6">
+            <div class="wrap">
+              <div class="img">
+                <a href="#">
+                  <picture>
+                    <img
+                      src="https://d.newsweek.com/en/full/1643742/trump.webp?w=466&h=311&f=6e678c3c3fc0f309212c4e019fe464a2"
+                      alt="trump">
+                  </picture>
+                </a>
+              </div>
+              <div class="category">
+                <a href="#">POLITICS</a>
+              </div>
+            </div>
+            <h3><a href="#">Reese Denies Supporting Trump After 'Portland Sheriff' Endorsement Claim</a>
+            </h3>
+            <div class="summary">
+              "As the Multnomah County Sheriff I have never supported Donald Trump," Sheriff Mike Reese said.
+            </div>
+          </article>
+
+          <article class="col-sm-6">
+            <div class="wrap">
+              <div class="img">
+                <a href="#">
+                  <picture>
+                    <img
+                      src="https://d.newsweek.com/en/full/1643290/meghan-markle-tembisa-township-south-africa.webp?w=466&h=311&f=68dcdb9aa591821c24e571a5f5fc71c8"
+                      alt="meghan">
+                  </picture>
+                </a>
+              </div>
+              <div class="category">
+                <a href="#">NEWS</a>
+              </div>
+            </div>
+            <h3><a href="#">Meghan Markle Claims U.K. Tabloid 'Will Fail' After Court Case Setback</a>
+            </h3>
+            <div class="summary">
+              The Duchess of Sussex's lawyers insist "we were prepared for this potential outcome" after a U.K. tabloid
+              won the right to question her on whether she co-operated with a bombshell biography.
+            </div>
+          </article>
+
+          <article class="col-sm-6">
+            <div class="wrap">
+              <div class="img">
+                <a href="#">
+                  <picture>
+                    <img
+                      src="https://d.newsweek.com/en/full/1642923/joe-biden-black-economic-summit.webp?w=466&h=311&f=3431f95b5cc960c4888d260ac800cf7c"
+                      alt="joe biden">
+                  </picture>
+                </a>
+              </div>
+              <div class="category">
+                <a href="#">POLITICS</a>
+              </div>
+            </div>
+            <h3><a href="#">Fact Check: Are Donald Trump and Joe Biden Taking Drugs?</a>
+            </h3>
+            <div class="summary">
+              Both candidates have been accused of taking drugs but there's no evidence to suggest either them are.
+            </div>
+          </article>
+
+          <article class="col-sm-6">
+            <div class="wrap">
+              <div class="img">
+                <a href="#">
+                  <picture>
+                    <img
+                      src="https://d.newsweek.com/en/full/1643295/bat.webp?w=466&h=311&f=7a072cf3a4c6cc33cb5b9bb2e34141f7"
+                      alt="bat">
+                  </picture>
+                </a>
+              </div>
+              <div class="category">
+                <a href="#">TECH & SCIENCE</a>
+              </div>
+            </div>
+            <h3><a href="#">U.S. Imported Over 30,000 Bat Body Parts From China in Five Years</a>
+            </h3>
+            <div class="summary">
+              The report found that the U.S. imported nearly 23 million whole animals and animal body parts in this
+              period.
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="section-pick">
+        <h3 class="block-title">
+          <a href="#">U.S.</a>
+        </h3>
+        <div class="row">
+          <div class="col-sm-6">
+            <article>
+              <div class="img">
+                <a href="#">
+                  <picture>
+                    <img
+                      src="https://d.newsweek.com/en/full/1644010/mnuchin-sept-24.webp?w=466&h=311&f=0934e4ddf1245d16c0c7e9c0cd230dc4"
+                      alt="mnuchin">
+                  </picture>
+                </a>
+              </div>
+              <h4>
+                <a href="#">'One More Serious Try' on a Second Stimulus Deal Is Coming, Says Mnuchin</a>
+              </h4>
+            </article>
+          </div>
+
+          <div class="col-sm-6">
+            <article>
+              <div class="img">
+                <a href="#">
+                  <picture>
+                    <img
+                      src="https://d.newsweek.com/en/full/1644004/presidential-debate.webp?w=466&h=311&f=d240800e10e7e749c67c2c64703352da"
+                      alt="debate">
+                  </picture>
+                </a>
+              </div>
+              <h4>
+                <a href="#">After Watching Debate, Evangelical Leader Says God "Is Our Only Hope"</a>
+              </h4>
+            </article>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="art-list">
+              <ul>
+                <li class="d-flex">
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1643992/donald-trump-vaccine-coronavirus-military-delivery.webp?w=466&h=311&f=dadb84a51f0016bbb6207a1978363612"
+                          alt="vaccine">
+                      </picture>
+                    </a>
+                  </div>
+                  <div class="info">
+                    <a href="#">Trump Says Military Is Prepared to Deliver Coronavirus Vaccine</a>
+                  </div>
+                </li>
+                <li class="d-flex">
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1643989/protest.webp?w=95&h=95&f=1d41c187942a1abd24ec35d48b5f87cc"
+                          alt="police">
+                      </picture>
+                    </a>
+                  </div>
+                  <div class="info">
+                    <a href="#">Police Officer Charged After Kicking and Dragging Handcuffed Woman</a>
+                  </div>
+                </li>
+                <li class="d-flex">
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1643976/las-vegas-bar-customers-september-2020.webp?w=95&h=95&f=ec6a4c0dd5d2443c71f37d6af410502f"
+                          alt="cases">
+                      </picture>
+                    </a>
+                  </div>
+                  <div class="info">
+                    <a href="#">Coronavirus Cases Are Now Rising in 28 States</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="block-title">
+          <a href="#">World</a>
+        </h3>
+        <div class="row">
+          <div class="col-sm-6">
+            <article>
+              <div class="img">
+                <a href="#">
+                  <picture>
+                    <img
+                      src="https://d.newsweek.com/en/full/1643999/hospital-computer-machine.webp?w=466&h=311&f=00f4f2492039d1fd4aa873e59c17c665"
+                      alt="nurse">
+                  </picture>
+                </a>
+              </div>
+              <h4>
+                <a href="#">Nurse Fired for Making Remarks to Dying Woman as She Screamed for Help</a>
+              </h4>
+            </article>
+          </div>
+
+          <div class="col-sm-6">
+            <article>
+              <div class="img">
+                <a href="#">
+                  <picture>
+                    <img
+                      src="https://d.newsweek.com/en/full/1643932/walmart-selkirk.webp?w=466&h=311&f=c91860c3df81b40bce3fb7b4c0c64ee4"
+                      alt="man arrested">
+                  </picture>
+                </a>
+              </div>
+              <h4>
+                <a href="#">Man Arrested Following Alleged Assault on Walmart Employee Over Face Mask</a>
+              </h4>
+            </article>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="art-list">
+              <ul>
+                <li class="d-flex">
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1643988/subway-sandwich.webp?w=466&h=311&f=f525e028e1c30528f97dfaf6e42bff19"
+                          alt="subway">
+                      </picture>
+                    </a>
+                  </div>
+                  <div class="info">
+                    <a href="#">Subway Sandwiches Have Too Much Sugar to Be Classified as 'Bread'</a>
+                  </div>
+                </li>
+                <li class="d-flex">
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1643850/proud-boys-shirt.webp?w=95&h=95&f=9d35bd93936b03c722b97195857dfbd6"
+                          alt="boys">
+                      </picture>
+                    </a>
+                  </div>
+                  <div class="info">
+                    <a href="#">Proud Boys in U.K. Buying Fred Perry Polo Shirts to Ship to U.S.</a>
+                  </div>
+                </li>
+                <li class="d-flex">
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1643843/young-apprentices-begin-working-cammell-laird.webp?w=95&h=95&f=696f048aa38709289a5e522512d53a61"
+                          alt="illegal">
+                      </picture>
+                    </a>
+                  </div>
+                  <div class="info">
+                    <a href="#">Exclusive: Illegal Unpaid Internships Still Advertised in the U.K.</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="block-title">
+          <a href="#">Business</a>
+        </h3>
+        <div class="row">
+          <div class="col-sm-6">
+            <article>
+              <div class="img">
+                <a href="#">
+                  <picture>
+                    <img
+                      src="https://d.newsweek.com/en/full/1643824/donald-trump-debate.webp?w=466&h=311&f=a6a0e2f0e3f4f99353b0f48675147c7d"
+                      alt="trump">
+                  </picture>
+                </a>
+              </div>
+              <h4>
+                <a href="#">Only One Fortune 100 CEO Has Donated to Donald Trump's Campaign</a>
+              </h4>
+            </article>
+          </div>
+
+          <div class="col-sm-6">
+            <article>
+              <div class="img">
+                <a href="#">
+                  <picture>
+                    <img
+                      src="https://d.newsweek.com/en/full/1643045/democratic-leaders.webp?w=466&h=311&f=4baba913be7ae040c8fa1885c09edb03"
+                      alt="morgan">
+                  </picture>
+                </a>
+              </div>
+              <h4>
+                <a href="#">Market Would Be Surprised if It's 'Not a Blue Sweep': Morgan Stanley CIO</a>
+              </h4>
+            </article>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="art-list">
+              <ul>
+                <li class="d-flex">
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1642297/donald-trump-jr-defend-taxes-father.webp?w=466&h=311&f=e54e9226ca02ce236b740b97f03788f6"
+                          alt="trump jr">
+                      </picture>
+                    </a>
+                  </div>
+                  <div class="info">
+                    <a href="#">Trump Jr. Says Americans 'Don't Understand' Taxes, Tells NYT to Probe Biden</a>
+                  </div>
+                </li>
+                <li class="d-flex">
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1639729/youngest-billionaires-america.webp?w=95&h=95&f=59c4d0dca2d82fbda06ae3456c32e96d"
+                          alt="billionaires">
+                      </picture>
+                    </a>
+                  </div>
+                  <div class="info">
+                    <a href="#">Youngest Billionaires in America</a>
+                  </div>
+                </li>
+                <li class="d-flex">
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1641650/jobless-unemployment-line-bank-economy.webp?w=95&h=95&f=ed8f0b372bef8a610ce9a2302cc720f0"
+                          alt="jobless">
+                      </picture>
+                    </a>
+                  </div>
+                  <div class="info">
+                    <a href="#">New Jobless Claims Rise in Indiana, Michigan, 26 Million Receiving Benefits</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="block-title">
+          <a href="#">Tech & Science</a>
+        </h3>
+        <div class="row">
+          <div class="col-sm-6">
+            <article>
+              <div class="img">
+                <a href="#">
+                  <picture>
+                    <img
+                      src="https://d.newsweek.com/en/full/1643878/harvest-moon.webp?w=466&h=311&f=2504a639d4d007b1c4e7d1ab09b34878"
+                      alt="moon">
+                  </picture>
+                </a>
+              </div>
+              <h4>
+                <a href="#">Harvest Moon 2020: Special October Full Moon to Appear Thursday</a>
+              </h4>
+            </article>
+          </div>
+
+          <div class="col-sm-6">
+            <article>
+              <div class="img">
+                <a href="#">
+                  <picture>
+                    <img
+                      src="https://d.newsweek.com/en/full/1643834/small-banded-kukri-snake.webp?w=466&h=311&f=fa5b85aa3862c3e95e1deb04de9e15ba"
+                      alt="snakes">
+                  </picture>
+                </a>
+              </div>
+              <h4>
+                <a href="#">These Snakes Slice Open Toads and Eat Their Organs One-by-One While Alive</a>
+              </h4>
+            </article>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="art-list">
+              <ul>
+                <li class="d-flex">
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1643803/killer-whale.webp?w=466&h=311&f=d58ee78d9b8a316ddd36ae8b6e0e8b4a"
+                          alt="whale">
+                      </picture>
+                    </a>
+                  </div>
+                  <div class="info">
+                    <a href="#">Scientists Say They Know Why Killer Whales Are Attacking Boats</a>
+                  </div>
+                </li>
+                <li class="d-flex">
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1643067/joe-biden.webp?w=95&h=95&f=5b3cb4aca9e42e5ad3c0c6aaedd2ffa8"
+                          alt="joe biden">
+                      </picture>
+                    </a>
+                  </div>
+                  <div class="info">
+                    <a href="#">Biden Campaign Blasts Facebook As 'Foremost Propagator' of Voting Lies</a>
+                  </div>
+                </li>
+                <li class="d-flex">
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1643013/shark-spine.webp?w=95&h=95&f=4e58c0a55077b69a9f0ac5268d12ab87"
+                          alt="shark">
+                      </picture>
+                    </a>
+                  </div>
+                  <div class="info">
+                    <a href="#">Spine of Great White Shark Discovered on Massachusetts Beach After Storm</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="block-title">
+          <a href="#">Culture</a>
+        </h3>
+        <div class="row">
+          <div class="col-sm-6">
+            <article>
+              <div class="img">
+                <a href="#">
+                  <picture>
+                    <img
+                      src="https://d.newsweek.com/en/full/1644007/mac-davis.webp?w=466&h=311&l=52&t=33&f=754c5615ca0cf0a7a1530d7472ca8279"
+                      alt="singer">
+                  </picture>
+                </a>
+              </div>
+              <h4>
+                <a href="#">Remember Singer-Songwriter Mac Davis With These Songs</a>
+              </h4>
+            </article>
+          </div>
+
+          <div class="col-sm-6">
+            <article>
+              <div class="img">
+                <a href="#">
+                  <picture>
+                    <img
+                      src="https://d.newsweek.com/en/full/1643991/meghan-markle-christchurch-mosque-terror-attack-condolencebook.webp?w=466&h=311&f=044f0259ae3068cedd99b742d0ee83f2"
+                      alt="meghan">
+                  </picture>
+                </a>
+              </div>
+              <h4>
+                <a href="#">Meghan Markle Cried After George Floyd's Death, Tore Up Speech to Back BLM</a>
+              </h4>
+            </article>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="art-list">
+              <ul>
+                <li class="d-flex">
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1644003/chelsea-clinton.webp?w=466&h=311&f=b81cec463b2da6d02d4ec941dbcf0c77"
+                          alt="chelsea">
+                      </picture>
+                    </a>
+                  </div>
+                  <div class="info">
+                    <a href="#">Chelsea Clinton Says She Feels 'Protective' Of Barron Trump</a>
+                  </div>
+                </li>
+                <li class="d-flex">
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1643996/steve-yeun.webp?w=95&h=95&l=49&t=26&f=92563ee16c05a0020c4edcc88d2fc1d5"
+                          alt="minari">
+                      </picture>
+                    </a>
+                  </div>
+                  <div class="info">
+                    <a href="#">'Minari': Everything We Learned About Steven Yeun's New Movie</a>
+                  </div>
+                </li>
+                <li class="d-flex">
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1643959/jim-carreys-latest-trump-painting.webp?w=95&h=95&f=856bd46a64f5b0fc7bf08bf243729ca9"
+                          alt="jim carey">
+                      </picture>
+                    </a>
+                  </div>
+                  <div class="info">
+                    <a href="#">Jim Carrey's Latest Trump Painting Features Flaming Swastika-Shaped Hair an</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="block-title">
+          <a href="#">Sports</a>
+        </h3>
+        <div class="row">
+          <div class="col-sm-6">
+            <article>
+              <div class="img">
+                <a href="#">
+                  <picture>
+                    <img
+                      src="https://d.newsweek.com/en/full/1643962/lebron-james-nba-miami-heat.webp?w=466&h=311&f=f882e0de19526e9b11346d49182d4ccd"
+                      alt="lebron">
+                  </picture>
+                </a>
+              </div>
+              <h4>
+                <a href="#">LeBron James Plays 10th NBA Final—Here's How He Performed in the Other Nine</a>
+              </h4>
+            </article>
+          </div>
+
+          <div class="col-sm-6">
+            <article>
+              <div class="img">
+                <a href="#">
+                  <picture>
+                    <img
+                      src="https://d.newsweek.com/en/full/1643837/lebron-james-nba-los-angeles-lakers.webp?w=466&h=311&f=6b69321ec666d47404c0b2bd76d7734c"
+                      alt="nba finals">
+                  </picture>
+                </a>
+              </div>
+              <h4>
+                <a href="#">NBA Finals: Latest Betting Lines and Predictions for Lakers vs. Heat</a>
+              </h4>
+            </article>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="art-list">
+              <ul>
+                <li class="d-flex">
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1643814/miami-heat-nba-finals.webp?w=466&h=311&f=bd1c768cc5b7ed0c8cde7fdf11df5abe"
+                          alt="team">
+                      </picture>
+                    </a>
+                  </div>
+                  <div class="info">
+                    <a href="#">Why Miami Heat Will Have to Make History to Stop Los Angeles Lakers</a>
+                  </div>
+                </li>
+                <li class="d-flex">
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1643691/tennessee-titans-covid-19-positive-results.webp?w=95&h=95&f=913a4a55b3af0ba6e0e4908392920ca5"
+                          alt="nfl">
+                      </picture>
+                    </a>
+                  </div>
+                  <div class="info">
+                    <a href="#">NFL Still Planning Steelers-Titans Game Sunday Despite Positive COVID Cases</a>
+                  </div>
+                </li>
+                <li class="d-flex">
+                  <div class="img">
+                    <a href="#">
+                      <picture>
+                        <img
+                          src="https://d.newsweek.com/en/full/1636203/stephen-gostkowski-tennessee-titans.webp?w=95&h=95&f=10f9b2a27f6deb0a0e32110ac5e8f14a"
+                          alt="nfl">
+                      </picture>
+                    </a>
+                  </div>
+                  <div class="info">
+                    <a href="#">How Will the NFL's COVID Outbreak Affect the Rest of the Season?</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub-wrapper">
+      <div class="sub-cont row">
+        <div class="sub-art col-md-7">
+          <h3 class="block-title">SUBSCRIBE</h3>
+          <div class="mag-cont text-center d-flex justify-content-center align-items-center flex-column flex-md-row">
+            <div class="img">
+              <div class="mag-thumb prev">
+                <img
+                  src="https://d.newsweek.com/en/full/1641530/cover-october-02-2020.jpg?w=170&q=95&f=7dedf2b19f9910e285fdbdff096ed6a3"
+                  alt="previous">
+              </div>
+              <div class="mag-thumb current">
+                <img
+                  src="https://d.newsweek.com/en/full/1643943/cover-october-09-16-2020.jpg?w=170&q=95&f=f8144d83a028a40fe7ea6a5ed615ded7"
+                  alt="current">
+              </div>
+            </div>
+            <div class="info">
+              <h3>
+                In-depth Stories You Don't See Elsewhere About Topics You Want to Read!
+              </h3>
+              <p>
+                All Access + Weekly Delivery.
+                <br>
+                Choose A Membership That's Perfect for You!
+              </p>
+              <button class="subscribe-btn" type="button">SUBSCRIBE <svg width="1em" height="1em" viewBox="2 2 16 16"
+                  class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd"
+                    d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="nl-bot col-md-7">
+          <h3 class="block-title">NEWSLETTER</h3>
+          <div class="nl-cont text-center d-flex flex-column flex-md-row">
+            <div class="img">
+              <img
+                src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5"
+                alt="newsletter">
+            </div>
+            <div class="info">
+              <h3>THE STARTING 5</h3>
+              <p>See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+              <form class="free-signup d-flex align-items-center justify-content-center" action="#">
+                <input class="signup-email" type="email" placeholder="Email Address">
+                <button class="signup-btn" type="submit">FREE SIGN UP <svg width="1em" height="1em" viewBox="2 2 16 16"
+                    class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer container-fluid">
+    <div class="d-flex flex-column firstline-tablet-v flex-md-row">
+      <div class="d-flex flex-column footer-div-firstline flex-md-row">
+        <a class="brand" href="#">
+          <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve">
+            <g>
+              <path class="st0"
+                d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7">
+              </path>
+            </g>
+          </svg>
+        </a>
+        <p class="copyright">© 2020 NEWSWEEK DIGITAL LLC</p>
+      </div>
+      <div class="social-media">
+        <ul class="d-flex flex-row">
+          <li>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-tumblr"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <div class="edition d-flex">
+        <p class="label"><strong>Editions:</strong></p>
+        <ul class="ed-list">
+          <li>
+            <a href="#">U.S. Edition</a>
+          </li>
+          <li>
+            <a href="#">日本</a>
+          </li>
+          <li>
+            <a href="#">Pakistan</a>
+          </li>
+          <li>
+            <a href="#">Polska</a>
+          </li>
+          <li>
+            <a href="#">România</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-lsit">
+        <ul class="ed-list">
+          <li>
+            <a href="#">About Us</a>
+          </li>
+          <li>
+            <a href="#">Corrections</a>
+          </li>
+          <li>
+            <a href="#">Contact Us</a>
+          </li>
+          <li>
+            <a href="#">Editorial Guidelines</a>
+          </li>
+          <li>
+            <a href="#">Advertise</a>
+          </li>
+          <li>
+            <a href="#">Copyright</a>
+          </li>
+          <li>
+            <a href="#">Terms & Conditions</a>
+          </li>
+          <li>
+            <a href="#">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="#">Cookie Policy</a>
+          </li>
+          <li>
+            <a href="#">Terms of Sale</a>
+          </li>
+          <li>
+            <a href="#">Archive</a>
+          </li>
+          <li>
+            <a href="#">Announcements</a>
+          </li>
+          <li>
+            <a href="#">GDPR Privcy Settings</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
