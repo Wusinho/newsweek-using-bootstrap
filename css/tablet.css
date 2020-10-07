@@ -26,11 +26,6 @@
   padding-top: 0;
 }
 
-.top-wrapper,
-.top-wrapper .row,
-.sub-art .flex-column,
-.nl-cont,
-.firstline-tablet-v,
 .footer-div-firstline {
   flex-direction: row !important;
 }
@@ -134,6 +129,10 @@
 .col-md-7 {
   max-width: 100%;
   flex: auto;
+}
+
+.mag-cont .img {
+  height: auto;
 }
 
 .mag-cont .info {

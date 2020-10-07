@@ -91,7 +91,6 @@ header {
   position: absolute;
   z-index: 1;
   top: 13px;
-  display: none !important;
 }
 
 .menu {
@@ -143,11 +142,6 @@ header {
 .main {
   background-color: white;
   padding-top: 20px;
-}
-
-.top-wrapper,
-.top-wrapper .row {
-  flex-direction: column !important;
 }
 
 .top-story article {
@@ -558,12 +552,13 @@ header {
   position: relative;
   padding-bottom: 13px;
   padding-right: 90px;
+  height: 160px;
 }
 
 .current {
   position: absolute;
   right: 0;
-  bottom: 0;
+  top: 13px;
 }
 
 .mag-thumb {

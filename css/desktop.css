@@ -18,7 +18,6 @@ header {
 
 .weather {
   top: 12px;
-  display: block !important;
   font: 16px/34px "Roboto Condensed", sans-serif;
   color: white;
 }
