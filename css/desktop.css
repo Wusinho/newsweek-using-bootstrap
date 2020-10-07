@@ -12,10 +12,6 @@ header {
   height: 70px;
 }
 
-.ham-menu {
-  display: none;
-}
-
 .weather {
   top: 12px;
   font: 16px/34px "Roboto Condensed", sans-serif;
@@ -33,7 +29,6 @@ header {
 }
 
 .bot-header {
-  display: block;
   position: relative;
   padding: 10px 5px;
   border-bottom-width: 2px;
