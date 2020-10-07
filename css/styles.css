@@ -501,7 +501,7 @@ header {
 
 .col-sm-6 {
   max-width: 100%;
-  flex: auto
+  flex: auto;
 }
 
 .col-sm-6 h3 {
