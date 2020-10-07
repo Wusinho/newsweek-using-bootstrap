@@ -17,7 +17,7 @@ We used Bootstrap Framework to create a clone of News Week website.
 
 ## Live Demo
 
-[News Week](https://raw.githack.com/julian3493/newsweek-using-bootstrap/bootstrap/index.html)
+[News Week](https://rawcdn.githack.com/julian3493/newsweek-using-bootstrap/768cd735f7c102a1aff7bfbc038c2080a23e3c59/index.html)
 
 ## Getting Started
 
